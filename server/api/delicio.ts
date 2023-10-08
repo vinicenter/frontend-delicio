@@ -1,6 +1,8 @@
+const runtimeConfig = useRuntimeConfig()
+
 export default defineEventHandler(async () => {
   const data = await fetch(
-    'http://localhost:9501/delicio',
+    `${runtimeConfig.delicio.url}/delicio`,
     {
       method: 'GET',
     }
