@@ -18,7 +18,6 @@ body {
   animation: gradient 5s alternate infinite;
 }
 
-/* Create a keyframe animation for the gradient effect */
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
@@ -27,8 +26,6 @@ body {
     background-position: 100% 50%;
   }
 }
-
-
 
 .app-container {
   width: 100vw;
